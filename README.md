@@ -31,15 +31,14 @@ RepoLens operates via a closed-loop multi-agent orchestration pipeline:
 ## Repository Structure
 
 RepoLens/
-├── src/
-│   ├── ingestion/       # AST symbol table extraction and repository cloning
-│   ├── agents/          # Multi-agent role implementations (Scanner, Synthesizer, Verifier)
-│   └── verification/    # Deterministic AST cross-validation engine
-├── benchmarks/          # Evaluation suites across Small, Medium, and Large repos
-├── docs/                # Generated documentation artifacts and architecture graphs
-├── requirements.txt     # Python environment dependencies
-└── README.md            # Repository overview
-
+    ├── src/
+    │   ├── ingestion/
+    │   ├── agents/
+    │   └── verification/
+    ├── benchmarks/
+    ├── docs/
+    ├── requirements.txt
+    └── README.md
 ---
 
 ## Primary Metrics & Target Goals
