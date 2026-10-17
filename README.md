@@ -30,6 +30,7 @@ RepoLens operates via a closed-loop multi-agent orchestration pipeline:
 
 ## Repository Structure
 
+'''
 RepoLens/
     ├── src/
     │   ├── ingestion/
@@ -39,6 +40,7 @@ RepoLens/
     ├── docs/
     ├── requirements.txt
     └── README.md
+'''
 ---
 
 ## Primary Metrics & Target Goals
