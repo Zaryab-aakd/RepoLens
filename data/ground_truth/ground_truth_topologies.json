@@ -1,0 +1,213 @@
+{
+  "js_med_router": {
+    "nodes": [
+      "middleware.js",
+      "router.js"
+    ],
+    "edges": [],
+    "metrics": {
+      "num_nodes": 2.0,
+      "num_edges": 0.0,
+      "density": 0.0,
+      "is_acyclic": 1.0
+    }
+  },
+  "js_small_calculator": {
+    "nodes": [
+      "evaluator.js",
+      "lexer.js"
+    ],
+    "edges": [],
+    "metrics": {
+      "num_nodes": 2.0,
+      "num_edges": 0.0,
+      "density": 0.0,
+      "is_acyclic": 1.0
+    }
+  },
+  "js_small_eventemitter": {
+    "nodes": [
+      "logger.js",
+      "events.js"
+    ],
+    "edges": [],
+    "metrics": {
+      "num_nodes": 2.0,
+      "num_edges": 0.0,
+      "density": 0.0,
+      "is_acyclic": 1.0
+    }
+  },
+  "py_large_cms": {
+    "nodes": [
+      "models.py",
+      "database.py",
+      "app.py",
+      "views.py"
+    ],
+    "edges": [
+      [
+        "models.py",
+        "database.py"
+      ],
+      [
+        "app.py",
+        "database.py"
+      ],
+      [
+        "app.py",
+        "views.py"
+      ],
+      [
+        "views.py",
+        "models.py"
+      ],
+      [
+        "views.py",
+        "database.py"
+      ]
+    ],
+    "metrics": {
+      "num_nodes": 4.0,
+      "num_edges": 5.0,
+      "density": 0.4167,
+      "is_acyclic": 1.0
+    }
+  },
+  "py_med_apigateway": {
+    "nodes": [
+      "rate_limiter.py",
+      "router.py",
+      "auth.py"
+    ],
+    "edges": [
+      [
+        "router.py",
+        "auth.py"
+      ],
+      [
+        "router.py",
+        "rate_limiter.py"
+      ]
+    ],
+    "metrics": {
+      "num_nodes": 3.0,
+      "num_edges": 2.0,
+      "density": 0.3333,
+      "is_acyclic": 1.0
+    }
+  },
+  "py_med_taskflow": {
+    "nodes": [
+      "models.py",
+      "app.py",
+      "dag.py",
+      "executor.py"
+    ],
+    "edges": [
+      [
+        "app.py",
+        "models.py"
+      ],
+      [
+        "app.py",
+        "dag.py"
+      ],
+      [
+        "app.py",
+        "executor.py"
+      ],
+      [
+        "dag.py",
+        "models.py"
+      ],
+      [
+        "executor.py",
+        "dag.py"
+      ]
+    ],
+    "metrics": {
+      "num_nodes": 4.0,
+      "num_edges": 5.0,
+      "density": 0.4167,
+      "is_acyclic": 1.0
+    }
+  },
+  "py_small_kv": {
+    "nodes": [
+      "server.py",
+      "storage.py",
+      "serializer.py"
+    ],
+    "edges": [
+      [
+        "server.py",
+        "storage.py"
+      ],
+      [
+        "server.py",
+        "serializer.py"
+      ]
+    ],
+    "metrics": {
+      "num_nodes": 3.0,
+      "num_edges": 2.0,
+      "density": 0.3333,
+      "is_acyclic": 1.0
+    }
+  },
+  "py_small_math": {
+    "nodes": [
+      "main.py",
+      "matrix.py",
+      "vector.py"
+    ],
+    "edges": [
+      [
+        "main.py",
+        "vector.py"
+      ],
+      [
+        "main.py",
+        "matrix.py"
+      ],
+      [
+        "matrix.py",
+        "vector.py"
+      ]
+    ],
+    "metrics": {
+      "num_nodes": 3.0,
+      "num_edges": 3.0,
+      "density": 0.5,
+      "is_acyclic": 1.0
+    }
+  },
+  "ts_large_orchestrator": {
+    "nodes": [
+      "registry.ts",
+      "app.ts",
+      "loadbalancer.ts"
+    ],
+    "edges": [],
+    "metrics": {
+      "num_nodes": 3.0,
+      "num_edges": 0.0,
+      "density": 0.0,
+      "is_acyclic": 1.0
+    }
+  },
+  "ts_med_store": {
+    "nodes": [
+      "store.ts",
+      "types.ts"
+    ],
+    "edges": [],
+    "metrics": {
+      "num_nodes": 2.0,
+      "num_edges": 0.0,
+      "density": 0.0,
+      "is_acyclic": 1.0
+    }
+  }
+}

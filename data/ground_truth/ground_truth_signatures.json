@@ -1,0 +1,328 @@
+{
+  "js_med_router": {
+    "createMiddlewareChain": {
+      "file_path": "middleware.js",
+      "arguments": [],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    }
+  },
+  "js_small_calculator": {
+    "evaluateExpression": {
+      "file_path": "evaluator.js",
+      "arguments": [
+        "expr"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "tokenize": {
+      "file_path": "lexer.js",
+      "arguments": [
+        "expr"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    }
+  },
+  "js_small_eventemitter": {
+    "attachLogger": {
+      "file_path": "logger.js",
+      "arguments": [
+        "emitter"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    }
+  },
+  "py_large_cms": {
+    "__init__": {
+      "file_path": "views.py",
+      "arguments": [
+        "db"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "connect": {
+      "file_path": "database.py",
+      "arguments": [],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "query": {
+      "file_path": "database.py",
+      "arguments": [
+        "sql"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "create_cms_app": {
+      "file_path": "app.py",
+      "arguments": [
+        "db_uri"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "get_post_detail": {
+      "file_path": "views.py",
+      "arguments": [
+        "post_id"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "publish_post": {
+      "file_path": "views.py",
+      "arguments": [
+        "title",
+        "content",
+        "author_id"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    }
+  },
+  "py_med_apigateway": {
+    "__init__": {
+      "file_path": "auth.py",
+      "arguments": [
+        "secret"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "is_allowed": {
+      "file_path": "rate_limiter.py",
+      "arguments": [
+        "client_ip"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "route_get": {
+      "file_path": "router.py",
+      "arguments": [
+        "path",
+        "token",
+        "ip"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "route_post": {
+      "file_path": "router.py",
+      "arguments": [
+        "path",
+        "payload",
+        "token"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "authenticate_token": {
+      "file_path": "auth.py",
+      "arguments": [
+        "token"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "generate_token": {
+      "file_path": "auth.py",
+      "arguments": [
+        "user_id"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    }
+  },
+  "py_med_taskflow": {
+    "__init__": {
+      "file_path": "executor.py",
+      "arguments": [
+        "dag"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "build_sample_pipeline": {
+      "file_path": "app.py",
+      "arguments": [],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "add_task": {
+      "file_path": "dag.py",
+      "arguments": [
+        "task"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "get_execution_order": {
+      "file_path": "dag.py",
+      "arguments": [],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "execute_all": {
+      "file_path": "executor.py",
+      "arguments": [],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    }
+  },
+  "py_small_kv": {
+    "__init__": {
+      "file_path": "storage.py",
+      "arguments": [],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "handle_request": {
+      "file_path": "server.py",
+      "arguments": [
+        "command",
+        "key",
+        "value"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "set": {
+      "file_path": "storage.py",
+      "arguments": [
+        "key",
+        "value",
+        "ttl"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "get": {
+      "file_path": "storage.py",
+      "arguments": [
+        "key"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "serialize_payload": {
+      "file_path": "serializer.py",
+      "arguments": [
+        "obj"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "deserialize_payload": {
+      "file_path": "serializer.py",
+      "arguments": [
+        "raw"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    }
+  },
+  "py_small_math": {
+    "run_math_pipeline": {
+      "file_path": "main.py",
+      "arguments": [
+        "scale"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "__init__": {
+      "file_path": "vector.py",
+      "arguments": [
+        "x",
+        "y"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "determinant": {
+      "file_path": "matrix.py",
+      "arguments": [],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "transform": {
+      "file_path": "matrix.py",
+      "arguments": [
+        "v"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "magnitude": {
+      "file_path": "vector.py",
+      "arguments": [],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "normalize": {
+      "file_path": "vector.py",
+      "arguments": [],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    },
+    "dot_product": {
+      "file_path": "vector.py",
+      "arguments": [
+        "v1",
+        "v2"
+      ],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    }
+  },
+  "ts_large_orchestrator": {
+    "bootstrapCluster": {
+      "file_path": "app.ts",
+      "arguments": [],
+      "is_route": false,
+      "route_path": null,
+      "route_method": null
+    }
+  },
+  "ts_med_store": {}
+}
