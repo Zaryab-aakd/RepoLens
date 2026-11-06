@@ -1,0 +1,11 @@
+Repository,E1_Baseline_HR,E1_Baseline_GED,E2_BasePaper_HR,E2_BasePaper_GED,E3_RepoLens_HR,E3_RepoLens_GED,E3_RepoLens_Prec,E3_RepoLens_Rec
+js_med_router,28.57%,5.0,20.00%,0.0,0.00%,0.0,100.00%,100.00%
+js_small_calculator,25.00%,5.0,16.67%,0.0,0.00%,0.0,100.00%,100.00%
+js_small_eventemitter,28.57%,5.0,20.00%,0.0,0.00%,0.0,100.00%,100.00%
+py_large_cms,28.57%,8.0,16.67%,2.0,0.00%,0.0,100.00%,72.22%
+py_med_apigateway,30.77%,8.0,18.18%,2.0,0.00%,0.0,100.00%,64.71%
+py_med_taskflow,30.77%,8.0,18.18%,2.0,0.00%,0.0,100.00%,73.33%
+py_small_kv,30.77%,6.0,18.18%,0.0,0.00%,0.0,100.00%,71.43%
+py_small_math,28.57%,7.0,16.67%,1.0,0.00%,0.0,100.00%,62.50%
+ts_large_orchestrator,25.00%,6.0,16.67%,0.0,0.00%,0.0,100.00%,100.00%
+ts_med_store,33.33%,5.0,25.00%,0.0,0.00%,0.0,100.00%,100.00%

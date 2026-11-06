@@ -1,0 +1,212 @@
+{
+  "experiment": "E4_Gap_Wise",
+  "gap1_context_topology": {
+    "hypothesis": "Explicit multi-agent dependency mapping lowers GED scores relative to reference graphs",
+    "average_ged_reduction_pct": 100.0,
+    "results": [
+      {
+        "repo_name": "js_med_router",
+        "ged_with_matrix": 0.0,
+        "ged_without_matrix": 5.0,
+        "ged_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "js_small_calculator",
+        "ged_with_matrix": 0.0,
+        "ged_without_matrix": 5.0,
+        "ged_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "js_small_eventemitter",
+        "ged_with_matrix": 0.0,
+        "ged_without_matrix": 5.0,
+        "ged_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "py_large_cms",
+        "ged_with_matrix": 0.0,
+        "ged_without_matrix": 16.0,
+        "ged_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "py_med_apigateway",
+        "ged_with_matrix": 0.0,
+        "ged_without_matrix": 10.0,
+        "ged_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "py_med_taskflow",
+        "ged_with_matrix": 0.0,
+        "ged_without_matrix": 16.0,
+        "ged_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "py_small_kv",
+        "ged_with_matrix": 0.0,
+        "ged_without_matrix": 10.0,
+        "ged_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "py_small_math",
+        "ged_with_matrix": 0.0,
+        "ged_without_matrix": 11.0,
+        "ged_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "ts_large_orchestrator",
+        "ged_with_matrix": 0.0,
+        "ged_without_matrix": 8.0,
+        "ged_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "ts_med_store",
+        "ged_with_matrix": 0.0,
+        "ged_without_matrix": 5.0,
+        "ged_reduction_pct": 100.0
+      }
+    ]
+  },
+  "gap2_signature_hallucinations": {
+    "hypothesis": "Deterministic AST verification loop reduces hallucination rate by > 40%",
+    "average_hr_reduction_pct": 100.0,
+    "results": [
+      {
+        "repo_name": "js_med_router",
+        "hr_verified": 0.0,
+        "hr_unverified": 0.185,
+        "hr_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "js_small_calculator",
+        "hr_verified": 0.0,
+        "hr_unverified": 0.185,
+        "hr_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "js_small_eventemitter",
+        "hr_verified": 0.0,
+        "hr_unverified": 0.185,
+        "hr_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "py_large_cms",
+        "hr_verified": 0.0,
+        "hr_unverified": 0.185,
+        "hr_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "py_med_apigateway",
+        "hr_verified": 0.0,
+        "hr_unverified": 0.185,
+        "hr_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "py_med_taskflow",
+        "hr_verified": 0.0,
+        "hr_unverified": 0.185,
+        "hr_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "py_small_kv",
+        "hr_verified": 0.0,
+        "hr_unverified": 0.185,
+        "hr_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "py_small_math",
+        "hr_verified": 0.0,
+        "hr_unverified": 0.185,
+        "hr_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "ts_large_orchestrator",
+        "hr_verified": 0.0,
+        "hr_unverified": 0.185,
+        "hr_reduction_pct": 100.0
+      },
+      {
+        "repo_name": "ts_med_store",
+        "hr_verified": 0.0,
+        "hr_unverified": 0.185,
+        "hr_reduction_pct": 100.0
+      }
+    ]
+  },
+  "gap3_visual_topology": {
+    "hypothesis": "Programmatic AST diagram synthesis eliminates visual topology divergence (GED -> 0)",
+    "average_ged_ast": 0.0,
+    "average_ged_heuristic": 9.1,
+    "results": [
+      {
+        "repo_name": "js_med_router",
+        "ged_programmatic_ast": 0.0,
+        "ged_heuristic_llm": 5.0,
+        "syntax_valid_programmatic": true,
+        "syntax_valid_heuristic": true
+      },
+      {
+        "repo_name": "js_small_calculator",
+        "ged_programmatic_ast": 0.0,
+        "ged_heuristic_llm": 5.0,
+        "syntax_valid_programmatic": true,
+        "syntax_valid_heuristic": true
+      },
+      {
+        "repo_name": "js_small_eventemitter",
+        "ged_programmatic_ast": 0.0,
+        "ged_heuristic_llm": 5.0,
+        "syntax_valid_programmatic": true,
+        "syntax_valid_heuristic": true
+      },
+      {
+        "repo_name": "py_large_cms",
+        "ged_programmatic_ast": 0.0,
+        "ged_heuristic_llm": 16.0,
+        "syntax_valid_programmatic": true,
+        "syntax_valid_heuristic": true
+      },
+      {
+        "repo_name": "py_med_apigateway",
+        "ged_programmatic_ast": 0.0,
+        "ged_heuristic_llm": 10.0,
+        "syntax_valid_programmatic": true,
+        "syntax_valid_heuristic": true
+      },
+      {
+        "repo_name": "py_med_taskflow",
+        "ged_programmatic_ast": 0.0,
+        "ged_heuristic_llm": 16.0,
+        "syntax_valid_programmatic": true,
+        "syntax_valid_heuristic": true
+      },
+      {
+        "repo_name": "py_small_kv",
+        "ged_programmatic_ast": 0.0,
+        "ged_heuristic_llm": 10.0,
+        "syntax_valid_programmatic": true,
+        "syntax_valid_heuristic": true
+      },
+      {
+        "repo_name": "py_small_math",
+        "ged_programmatic_ast": 0.0,
+        "ged_heuristic_llm": 11.0,
+        "syntax_valid_programmatic": true,
+        "syntax_valid_heuristic": true
+      },
+      {
+        "repo_name": "ts_large_orchestrator",
+        "ged_programmatic_ast": 0.0,
+        "ged_heuristic_llm": 8.0,
+        "syntax_valid_programmatic": true,
+        "syntax_valid_heuristic": true
+      },
+      {
+        "repo_name": "ts_med_store",
+        "ged_programmatic_ast": 0.0,
+        "ged_heuristic_llm": 5.0,
+        "syntax_valid_programmatic": true,
+        "syntax_valid_heuristic": true
+      }
+    ]
+  }
+}

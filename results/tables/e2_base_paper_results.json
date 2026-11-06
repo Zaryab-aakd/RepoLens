@@ -1,0 +1,130 @@
+{
+  "experiment": "E2_BasePaper_CodeR",
+  "description": "Base paper (CodeR) multi-agent architecture without compiler AST verification loop",
+  "average_hallucination_rate": 0.1862,
+  "average_ged": 0.7,
+  "average_precision": 0.8138,
+  "average_recall": 1.1667,
+  "repositories": [
+    {
+      "repo_name": "js_med_router",
+      "system": "E2_BasePaper_CodeR",
+      "total_claims": 5,
+      "hallucinations": 1,
+      "hallucination_rate": 0.2,
+      "precision": 0.8,
+      "recall": 1.3333,
+      "ged": 0.0,
+      "edge_precision": 1.0,
+      "edge_recall": 1.0
+    },
+    {
+      "repo_name": "js_small_calculator",
+      "system": "E2_BasePaper_CodeR",
+      "total_claims": 6,
+      "hallucinations": 1,
+      "hallucination_rate": 0.1667,
+      "precision": 0.8333,
+      "recall": 1.25,
+      "ged": 0.0,
+      "edge_precision": 1.0,
+      "edge_recall": 1.0
+    },
+    {
+      "repo_name": "js_small_eventemitter",
+      "system": "E2_BasePaper_CodeR",
+      "total_claims": 5,
+      "hallucinations": 1,
+      "hallucination_rate": 0.2,
+      "precision": 0.8,
+      "recall": 1.3333,
+      "ged": 0.0,
+      "edge_precision": 1.0,
+      "edge_recall": 1.0
+    },
+    {
+      "repo_name": "py_large_cms",
+      "system": "E2_BasePaper_CodeR",
+      "total_claims": 12,
+      "hallucinations": 2,
+      "hallucination_rate": 0.1667,
+      "precision": 0.8333,
+      "recall": 1.0,
+      "ged": 2.0,
+      "edge_precision": 0.8,
+      "edge_recall": 0.8
+    },
+    {
+      "repo_name": "py_med_apigateway",
+      "system": "E2_BasePaper_CodeR",
+      "total_claims": 11,
+      "hallucinations": 2,
+      "hallucination_rate": 0.1818,
+      "precision": 0.8182,
+      "recall": 1.0,
+      "ged": 2.0,
+      "edge_precision": 0.5,
+      "edge_recall": 0.5
+    },
+    {
+      "repo_name": "py_med_taskflow",
+      "system": "E2_BasePaper_CodeR",
+      "total_claims": 11,
+      "hallucinations": 2,
+      "hallucination_rate": 0.1818,
+      "precision": 0.8182,
+      "recall": 1.0,
+      "ged": 2.0,
+      "edge_precision": 0.8,
+      "edge_recall": 0.8
+    },
+    {
+      "repo_name": "py_small_kv",
+      "system": "E2_BasePaper_CodeR",
+      "total_claims": 11,
+      "hallucinations": 2,
+      "hallucination_rate": 0.1818,
+      "precision": 0.8182,
+      "recall": 1.0,
+      "ged": 0.0,
+      "edge_precision": 1.0,
+      "edge_recall": 1.0
+    },
+    {
+      "repo_name": "py_small_math",
+      "system": "E2_BasePaper_CodeR",
+      "total_claims": 12,
+      "hallucinations": 2,
+      "hallucination_rate": 0.1667,
+      "precision": 0.8333,
+      "recall": 1.0,
+      "ged": 1.0,
+      "edge_precision": 1.0,
+      "edge_recall": 0.6667
+    },
+    {
+      "repo_name": "ts_large_orchestrator",
+      "system": "E2_BasePaper_CodeR",
+      "total_claims": 6,
+      "hallucinations": 1,
+      "hallucination_rate": 0.1667,
+      "precision": 0.8333,
+      "recall": 1.25,
+      "ged": 0.0,
+      "edge_precision": 1.0,
+      "edge_recall": 1.0
+    },
+    {
+      "repo_name": "ts_med_store",
+      "system": "E2_BasePaper_CodeR",
+      "total_claims": 4,
+      "hallucinations": 1,
+      "hallucination_rate": 0.25,
+      "precision": 0.75,
+      "recall": 1.5,
+      "ged": 0.0,
+      "edge_precision": 1.0,
+      "edge_recall": 1.0
+    }
+  ]
+}

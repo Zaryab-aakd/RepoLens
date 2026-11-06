@@ -1,0 +1,130 @@
+{
+  "experiment": "E1_Baseline",
+  "description": "Single-shot non-agentic baseline without AST verification or topological matrices",
+  "average_hallucination_rate": 0.2899,
+  "average_ged": 6.3,
+  "average_precision": 0.7101,
+  "average_recall": 1.3333,
+  "repositories": [
+    {
+      "repo_name": "js_med_router",
+      "system": "E1_Baseline_SingleShot",
+      "total_claims": 7,
+      "hallucinations": 2,
+      "hallucination_rate": 0.2857,
+      "precision": 0.7143,
+      "recall": 1.6667,
+      "ged": 5.0,
+      "edge_precision": 0.0,
+      "edge_recall": 1.0
+    },
+    {
+      "repo_name": "js_small_calculator",
+      "system": "E1_Baseline_SingleShot",
+      "total_claims": 8,
+      "hallucinations": 2,
+      "hallucination_rate": 0.25,
+      "precision": 0.75,
+      "recall": 1.5,
+      "ged": 5.0,
+      "edge_precision": 0.0,
+      "edge_recall": 1.0
+    },
+    {
+      "repo_name": "js_small_eventemitter",
+      "system": "E1_Baseline_SingleShot",
+      "total_claims": 7,
+      "hallucinations": 2,
+      "hallucination_rate": 0.2857,
+      "precision": 0.7143,
+      "recall": 1.6667,
+      "ged": 5.0,
+      "edge_precision": 0.0,
+      "edge_recall": 1.0
+    },
+    {
+      "repo_name": "py_large_cms",
+      "system": "E1_Baseline_SingleShot",
+      "total_claims": 14,
+      "hallucinations": 4,
+      "hallucination_rate": 0.2857,
+      "precision": 0.7143,
+      "recall": 1.0,
+      "ged": 8.0,
+      "edge_precision": 0.4,
+      "edge_recall": 0.4
+    },
+    {
+      "repo_name": "py_med_apigateway",
+      "system": "E1_Baseline_SingleShot",
+      "total_claims": 13,
+      "hallucinations": 4,
+      "hallucination_rate": 0.3077,
+      "precision": 0.6923,
+      "recall": 1.0,
+      "ged": 8.0,
+      "edge_precision": 0.0,
+      "edge_recall": 0.0
+    },
+    {
+      "repo_name": "py_med_taskflow",
+      "system": "E1_Baseline_SingleShot",
+      "total_claims": 13,
+      "hallucinations": 4,
+      "hallucination_rate": 0.3077,
+      "precision": 0.6923,
+      "recall": 1.0,
+      "ged": 8.0,
+      "edge_precision": 0.4,
+      "edge_recall": 0.4
+    },
+    {
+      "repo_name": "py_small_kv",
+      "system": "E1_Baseline_SingleShot",
+      "total_claims": 13,
+      "hallucinations": 4,
+      "hallucination_rate": 0.3077,
+      "precision": 0.6923,
+      "recall": 1.0,
+      "ged": 6.0,
+      "edge_precision": 0.25,
+      "edge_recall": 0.5
+    },
+    {
+      "repo_name": "py_small_math",
+      "system": "E1_Baseline_SingleShot",
+      "total_claims": 14,
+      "hallucinations": 4,
+      "hallucination_rate": 0.2857,
+      "precision": 0.7143,
+      "recall": 1.0,
+      "ged": 7.0,
+      "edge_precision": 0.25,
+      "edge_recall": 0.3333
+    },
+    {
+      "repo_name": "ts_large_orchestrator",
+      "system": "E1_Baseline_SingleShot",
+      "total_claims": 8,
+      "hallucinations": 2,
+      "hallucination_rate": 0.25,
+      "precision": 0.75,
+      "recall": 1.5,
+      "ged": 6.0,
+      "edge_precision": 0.0,
+      "edge_recall": 1.0
+    },
+    {
+      "repo_name": "ts_med_store",
+      "system": "E1_Baseline_SingleShot",
+      "total_claims": 6,
+      "hallucinations": 2,
+      "hallucination_rate": 0.3333,
+      "precision": 0.6667,
+      "recall": 2.0,
+      "ged": 5.0,
+      "edge_precision": 0.0,
+      "edge_recall": 1.0
+    }
+  ]
+}

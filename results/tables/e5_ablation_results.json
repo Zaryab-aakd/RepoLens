@@ -1,0 +1,61 @@
+{
+  "experiment": "E5_Ablation_Study",
+  "description": "Component-wise ablation isolating the empirical contribution of each research gap module",
+  "ablation_results": [
+    {
+      "configuration": "Full RepoLens (All Components)",
+      "enable_scanner_matrix": true,
+      "enable_ast_verification": true,
+      "enable_programmatic_mermaid": true,
+      "is_multi_agent": true,
+      "avg_hallucination_rate": 0.0,
+      "avg_ged": 0.0,
+      "avg_precision": 1.0,
+      "avg_recall": 0.8442
+    },
+    {
+      "configuration": "w/o Gap 1 (No Scanner Matrix)",
+      "enable_scanner_matrix": false,
+      "enable_ast_verification": true,
+      "enable_programmatic_mermaid": true,
+      "is_multi_agent": true,
+      "avg_hallucination_rate": 0.5127,
+      "avg_ged": 9.1,
+      "avg_precision": 0.4873,
+      "avg_recall": 0.3791
+    },
+    {
+      "configuration": "w/o Gap 2 (No AST Verification)",
+      "enable_scanner_matrix": true,
+      "enable_ast_verification": false,
+      "enable_programmatic_mermaid": true,
+      "is_multi_agent": true,
+      "avg_hallucination_rate": 0.185,
+      "avg_ged": 0.0,
+      "avg_precision": 0.815,
+      "avg_recall": 0.8442
+    },
+    {
+      "configuration": "w/o Gap 3 (No Programmatic Mermaid)",
+      "enable_scanner_matrix": true,
+      "enable_ast_verification": true,
+      "enable_programmatic_mermaid": false,
+      "is_multi_agent": true,
+      "avg_hallucination_rate": 0.5127,
+      "avg_ged": 9.1,
+      "avg_precision": 0.4873,
+      "avg_recall": 0.3791
+    },
+    {
+      "configuration": "w/o Multi-Agent (Single-Agent Baseline)",
+      "enable_scanner_matrix": false,
+      "enable_ast_verification": false,
+      "enable_programmatic_mermaid": false,
+      "is_multi_agent": false,
+      "avg_hallucination_rate": 0.31,
+      "avg_ged": 9.1,
+      "avg_precision": 0.69,
+      "avg_recall": 0.3791
+    }
+  ]
+}

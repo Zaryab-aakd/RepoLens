@@ -1,0 +1,91 @@
+{
+  "experiment": "E6_Efficiency_and_Reliability",
+  "description": "System latency, action counts, self-correction recovery, and reliability across 3 repeated trials",
+  "num_trials": 3,
+  "overall_mean_duration_sec": 0.0038,
+  "overall_std_duration_sec": 0.0011,
+  "overall_mean_actions": 9,
+  "overall_recovery_success_rate_pct": 100.0,
+  "per_repository": {
+    "js_med_router": {
+      "mean_duration_sec": 0.0052,
+      "std_duration_sec": 0.0021,
+      "mean_actions_count": 9,
+      "std_actions_count": 0.0,
+      "mean_iterations": 1,
+      "recovery_success_rate_pct": 100.0
+    },
+    "js_small_calculator": {
+      "mean_duration_sec": 0.0027,
+      "std_duration_sec": 0.0003,
+      "mean_actions_count": 9,
+      "std_actions_count": 0.0,
+      "mean_iterations": 1,
+      "recovery_success_rate_pct": 100.0
+    },
+    "js_small_eventemitter": {
+      "mean_duration_sec": 0.0025,
+      "std_duration_sec": 0.0001,
+      "mean_actions_count": 9,
+      "std_actions_count": 0.0,
+      "mean_iterations": 1,
+      "recovery_success_rate_pct": 100.0
+    },
+    "py_large_cms": {
+      "mean_duration_sec": 0.0055,
+      "std_duration_sec": 0.0012,
+      "mean_actions_count": 9,
+      "std_actions_count": 0.0,
+      "mean_iterations": 1,
+      "recovery_success_rate_pct": 100.0
+    },
+    "py_med_apigateway": {
+      "mean_duration_sec": 0.0038,
+      "std_duration_sec": 0.0002,
+      "mean_actions_count": 9,
+      "std_actions_count": 0.0,
+      "mean_iterations": 1,
+      "recovery_success_rate_pct": 100.0
+    },
+    "py_med_taskflow": {
+      "mean_duration_sec": 0.0043,
+      "std_duration_sec": 0.0002,
+      "mean_actions_count": 9,
+      "std_actions_count": 0.0,
+      "mean_iterations": 1,
+      "recovery_success_rate_pct": 100.0
+    },
+    "py_small_kv": {
+      "mean_duration_sec": 0.004,
+      "std_duration_sec": 0.0,
+      "mean_actions_count": 9,
+      "std_actions_count": 0.0,
+      "mean_iterations": 1,
+      "recovery_success_rate_pct": 100.0
+    },
+    "py_small_math": {
+      "mean_duration_sec": 0.0041,
+      "std_duration_sec": 0.0,
+      "mean_actions_count": 9,
+      "std_actions_count": 0.0,
+      "mean_iterations": 1,
+      "recovery_success_rate_pct": 100.0
+    },
+    "ts_large_orchestrator": {
+      "mean_duration_sec": 0.0032,
+      "std_duration_sec": 0.0004,
+      "mean_actions_count": 9,
+      "std_actions_count": 0.0,
+      "mean_iterations": 1,
+      "recovery_success_rate_pct": 100.0
+    },
+    "ts_med_store": {
+      "mean_duration_sec": 0.0023,
+      "std_duration_sec": 0.0002,
+      "mean_actions_count": 9,
+      "std_actions_count": 0.0,
+      "mean_iterations": 1,
+      "recovery_success_rate_pct": 100.0
+    }
+  }
+}

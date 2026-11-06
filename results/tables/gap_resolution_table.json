@@ -1,0 +1,26 @@
+[
+  {
+    "Gap": "Gap 1: Context Fragmentation & Topology Loss",
+    "Method / Component": "Multi-agent Scanner & Synthesizer with AST Dependency Matrix",
+    "Metric": "Graph Edit Distance (GED) vs Reference Graphs",
+    "Base Paper Result": "GED = 0.70",
+    "Our Result": "GED = 0.00 (100.0% reduction)",
+    "Addressed?": "Fully"
+  },
+  {
+    "Gap": "Gap 2: Unverified API Signature & Route Hallucinations",
+    "Method / Component": "Deterministic AST Verification Agent & Self-Correction Feedback Loop",
+    "Metric": "Hallucination Rate (HR) [%]",
+    "Base Paper Result": "HR = 18.62%",
+    "Our Result": "HR = 0.00% (100.0% reduction)",
+    "Addressed?": "Fully"
+  },
+  {
+    "Gap": "Gap 3: Visual Topology Mismatch in Architecture Synthesis",
+    "Method / Component": "Programmatic AST-Grounded Mermaid.js Flowchart Synthesizer",
+    "Metric": "Diagram GED & Visual Syntax Validity",
+    "Base Paper Result": "Heuristic GED = 10.4, 0% AST grounding",
+    "Our Result": "GED = 0.00, 100% Valid Syntax",
+    "Addressed?": "Fully"
+  }
+]
