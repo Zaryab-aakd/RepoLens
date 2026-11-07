@@ -1,0 +1,11 @@
+{
+  "is_valid": true,
+  "total_claims": 13,
+  "verified_claims": 13,
+  "total_hallucinations": 0,
+  "hallucination_rate": 0.0,
+  "precision": 1.0,
+  "recall": 0.7222,
+  "issues": [],
+  "audit_notes": "AST verification completed: 13/13 claims verified (0 hallucinations detected)."
+}
