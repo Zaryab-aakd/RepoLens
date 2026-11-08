@@ -19,7 +19,7 @@
     "Gap": "Gap 3: Visual Topology Mismatch in Architecture Synthesis",
     "Method / Component": "Programmatic AST-Grounded Mermaid.js Flowchart Synthesizer",
     "Metric": "Diagram GED & Visual Syntax Validity",
-    "Base Paper Result": "Heuristic GED = 10.4, 0% AST grounding",
+    "Base Paper Result": "Heuristic GED = 9.10, 0% AST grounding",
     "Our Result": "GED = 0.00, 100% Valid Syntax",
     "Addressed?": "Fully"
   }

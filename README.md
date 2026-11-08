@@ -77,7 +77,7 @@ As required by Section 4.4 and Rubric B2 of the Phase 2 specification, the empir
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Gap 1: Context Fragmentation & Topology Loss** | Multi-agent Scanner & Synthesizer with AST Dependency Matrix | Graph Edit Distance (GED) vs Reference Graphs | GED = 0.70 | **GED = 0.00** (100.0% reduction) | **Fully** |
 | **Gap 2: Unverified API Signature & Route Hallucinations** | Deterministic AST Verification Agent & Self-Correction Feedback Loop | Hallucination Rate (HR) [%] | HR = 18.62% | **HR = 0.00%** (100.0% reduction) | **Fully** |
-| **Gap 3: Visual Topology Mismatch in Architecture Synthesis** | Programmatic AST-Grounded Mermaid.js Flowchart Synthesizer | Diagram GED & Visual Syntax Validity | Heuristic GED = 10.40, 0% AST grounding | **GED = 0.00**, 100% Valid Syntax | **Fully** |
+| **Gap 3: Visual Topology Mismatch in Architecture Synthesis** | Programmatic AST-Grounded Mermaid.js Flowchart Synthesizer | Diagram GED & Visual Syntax Validity | Heuristic GED = 9.10, 0% AST grounding | **GED = 0.00**, 100% Valid Syntax | **Fully** |
 
 ---
 
